@@ -1,0 +1,198 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: 'Roboto';
+    color: #282828;
+}
+
+a {
+    text-decoration: none;
+}
+
+.wrapper {
+    width: 980px;
+
+    margin: 0 auto;
+}
+
+/*==== Header ====*/
+
+header nav{
+    width: 100%;
+    height: 50px;
+    
+    background-color: #8257E5;
+
+    display: flex;
+    align-items: center;
+}
+
+nav .wrapper .content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo h1{
+    color: white;
+    font-size: 2rem;
+}
+
+nav .nav-t{
+
+    font-size: 1.5rem;
+    font-weight: 500;
+
+    color: white;
+
+    text-decoration: none;
+}
+/*==== Header ====*/
+
+
+/*==== Hero ====*/
+main .hero {
+    background-image: linear-gradient(300deg, rgba(5, 5, 5, 0) 10%, rgba(0, 0, 0, 0.8) 80%), url('./img/woman-study.jpg');
+    background-size: cover;
+    background-position: center;
+
+    height: 550px;
+
+    display: flex;
+    align-items: center;
+}
+
+
+.hero .wrapper h1 {
+    color: white;
+
+    font-size: 5rem;
+    margin-right: 50%;
+}
+
+.wrapper .text {
+    color: #8257E5;
+}
+/*==== Hero ====*/
+
+/*==== Main ====*/
+
+.courses {
+    margin-top: 90px;
+}
+
+.title{
+    font-size: 5rem;
+
+    color: #8257E5;
+}
+
+.infos p{
+    font-size: 2rem;
+    text-align: justify;
+
+    margin: 30px 0;
+}
+
+.infos h2 {
+    font-size: 2.7rem;
+    color: #8257E5;
+
+    margin-bottom: 30px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 50px 120px;
+}
+
+.card {
+    width: 250px;
+    height: 230px;
+
+    border-radius: 3px;
+    background-color: white;
+    border: 2px solid #8257E5;
+}
+
+.card:hover {
+    transform: scale(1.1);
+    transition: 0.4s;
+}
+
+.card-info {
+    padding: 5px;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 3px 3px 0 0;
+}
+
+.card-info h3 {
+    font-size: 1.7rem;
+
+    margin-bottom: 5px;
+}
+
+.value-time {
+    display: flex;
+    flex-direction: column;
+
+    font-size: 1.2rem;
+    font-weight: 500;
+    
+    color: #282828;
+
+    margin-bottom: 15px;
+}
+
+.btn-purple {
+    border: none;
+    padding: 5px;
+
+    width: 75px;
+    cursor: pointer;
+
+    background-color: #8257E5;
+    color: white;
+
+    font-weight: 500;
+
+    border-radius: 4px;
+}
+/*==== Main ====*/
+
+/*==== Footer ====*/
+footer {
+    background: #8257E5;
+    color: white;
+    margin-top: 50px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 60px;
+}
+
+footer h1 {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+/*==== Footer ====*/
+
+
